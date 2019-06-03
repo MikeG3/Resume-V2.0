@@ -1,0 +1,33 @@
+/*
+/	-----------------------------------------
+//	Written by:		
+//	MICHAEL HARVEY GARNER 
+//	2019	MONTREAL,  CANADA
+//	-----------------------------------------
+
+//	-----------------------------------------
+//	Michael Garner Platinum Audio
+//	-----------------------------------------
+*/
+
+body {
+	background-color:#1010f9;
+}
+
+a:link {
+  color: yellow;
+}
+
+a:visited {
+  color: white;
+}
+
+h1, h2, h3, h4 {
+	text-align: center;
+}
+
+#pictures {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
