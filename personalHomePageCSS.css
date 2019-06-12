@@ -70,7 +70,6 @@ ul li ul li {
 ul li:hover ul li {
 	display: block;
 	background_color: white;
-	color: white;
 	text-align: center;
 	float: left;
 	min-width: 225px;
@@ -86,4 +85,5 @@ ul li:hover ul li {
 ul li:hover ul li  a{
 	display: block;
 	background_color: white;
+	color: white;
 }
