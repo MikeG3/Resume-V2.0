@@ -25,8 +25,8 @@ h1, h2, h3, h4 {
 
 // MENU BAR
 ul {
-	float: center;
 	width: 90%;
+	float: center;
 	margin: 0px;
 	padding: 0px;
 	list-style-type: none;
