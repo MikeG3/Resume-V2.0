@@ -62,11 +62,13 @@ ul a  li {
 
 ul li a:hover {
 	text-decoration: none;
-	background-color: blue;
+	background-color: white;
+	color: black;
 }
 ul a:hover li {
 	text-decoration: none;
-	background-color: blue;
+	background-color: white;
+	color: black;
 }
 
 
