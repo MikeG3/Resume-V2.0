@@ -83,7 +83,7 @@ ul li:hover ul li {
 }
 
 
-ul li ul li:hover   a{
+ul li ul li:hover a{
 	display: block;
 	background_color: white;
 	color: black;
