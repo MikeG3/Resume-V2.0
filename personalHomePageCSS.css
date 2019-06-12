@@ -42,7 +42,7 @@ ul li {
 	text-align: center;
 	font-size: 20px;
 	margin-right: 4px;
-	list-style: none;
+	list-style-type: none;
 }
 
 ul li a {
