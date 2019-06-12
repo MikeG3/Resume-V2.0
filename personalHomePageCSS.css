@@ -52,9 +52,17 @@ ul li a {
 	color: white;
 	display: block;
 }
+ul a  li {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
 
 
 ul li a:hover {
+	background-color: blue;
+}
+ul a:hover li {
 	background-color: blue;
 }
 
