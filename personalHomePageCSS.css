@@ -37,7 +37,6 @@ ul {
 }
 
 ul li {
-	float: center;
 	width: 200px;
 	height: 40px;
 	background-color: black;
@@ -62,9 +61,11 @@ ul a  li {
 
 
 ul li a:hover {
+	text-decoration: none;
 	background-color: blue;
 }
 ul a:hover li {
+	text-decoration: none;
 	background-color: blue;
 }
 
