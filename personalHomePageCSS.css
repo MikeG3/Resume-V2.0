@@ -25,7 +25,6 @@ h1, h2, h3, h4 {
 
 // MENU BAR
 ul {
-	position: sticky;
 	width: 96%;
 	margin: 0px;
 	padding: 0px;
@@ -36,6 +35,7 @@ ul {
 }
 
 ul li {
+	position: sticky;
 	text-align: center;
 	float: left;
 	width: 19%;
