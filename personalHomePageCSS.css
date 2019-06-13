@@ -84,6 +84,7 @@ ul li:hover ul li {
 
 
 ul li ul li:hover a{
+	opacity: 1.0;
 	display: block;
 	background_color: white;
 	color: black;
