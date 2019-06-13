@@ -63,7 +63,7 @@ ul li a:hover {
 
 
 ul li ul li {
-	position: absolute;
+	position: relative;
 	display: none;
 }
 
