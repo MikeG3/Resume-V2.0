@@ -11,7 +11,7 @@
 */
 body {
 	background-color:#1c4af5;
-	background-image: Pictures/bluefade3.jpg;
+	background-image: url("Pictures/bluefade3.jpg");
 }
 
 h1, h2, h3, h4 {
