@@ -81,7 +81,7 @@ ul li:hover ul li {
 	text-align: center;
 	font-size: 20px;
 	list-style-type: none;
-	margin-left: 0px;
+	margin-left: -4px;
 }
 
 
