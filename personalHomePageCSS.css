@@ -17,6 +17,10 @@ body {
 	font-size: 2vw;
 }
 
+a {
+	color: black;
+}
+
 h1, h2, h3, h4 {
 	text-align: center;
 }
