@@ -111,10 +111,16 @@ ul li ul li:hover a{
 }
 
 /* entrepeneur */
+table tr td:hover {
+	color: black;
+	background-color: white;
+}
+
 table tr td a:hover{
 	color: black;
 	background-color: white;
 }
+/**/
 
 #bck1 div, #bck2 div, #bck3 div{
 	background-image: url("https://mikeg3.github.io/Resume-V2.0/Pictures/bluefade5.jpg");
