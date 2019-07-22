@@ -110,6 +110,6 @@ ul li ul li:hover a{
 	font-family: "Times New Roman";
 }
 
-#bck1, #bck2, #bck3 {
+#bck1 div, #bck2 div, #bck3 div{
 	background-image: url("https://mikeg3.github.io/Resume-V2.0/Pictures/bluefade5.jpg");
 }
