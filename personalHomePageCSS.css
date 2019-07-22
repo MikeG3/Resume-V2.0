@@ -34,7 +34,7 @@ h1, h2, h3, h4 {
 	margin-right: auto;
 }
 
-// MENU BAR
+/* MENU BAR */
 ul {
 	width: 99.4;
 	margin: 0px;
@@ -105,12 +105,20 @@ ul li:hover ul li {
 ul li ul li:hover a{
 	opacity: 1.0;
 	display: block;
-	background_color: white;
-	color: black;;
+	background-color: white;
+	color: black;
 	font-family: "Times New Roman";
+}
+
+/* entrepeneur */
+table tr td a:hover{
+	color: black;
+	background-color: white;
 }
 
 #bck1 div, #bck2 div, #bck3 div{
 	background-image: url("https://mikeg3.github.io/Resume-V2.0/Pictures/bluefade5.jpg");
 	background-size: cover;
 }
+
+
