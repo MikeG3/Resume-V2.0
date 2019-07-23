@@ -120,7 +120,8 @@ table tr td a:hover{
 	color: black;
 	background-color: white;
 	margin: 0px;
-	border: 15px #003366;
+	border-width: 5px;
+	border-color: #003366;
 }
 /**/
 
