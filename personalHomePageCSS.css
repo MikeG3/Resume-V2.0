@@ -62,7 +62,7 @@ ul li {
 	margin-right: 1px;
 	margin-left: 1px;
 	list-style-type: none;
-	font-family: "Times New Roman";
+	/*	font-family: "Times New Roman";		*/
 }
 
 
@@ -70,14 +70,14 @@ ul li a {
 	text-decoration: none;
 	color: #ffffff;
 	display: block;
-	font-family: "Times New Roman";
+	/*	font-family: "Times New Roman";		*/
 }
 
 ul li a:hover {
 	text-decoration: none;
 	background-color: white;
 	color: black;
-	font-family: "Times New Roman";
+	/*	font-family: "Times New Roman";		*/
 }
 
 
@@ -113,7 +113,7 @@ ul li ul li:hover a{
 	font-family: "Times New Roman";
 }
 
-/* entrepeneur */
+/* entrepeneur table*/
 table tr td:hover {
 	color: black;
 	background-color: white;
@@ -126,7 +126,6 @@ table tr td:hover a{
 	color: black;
 	background-color: white;
 }
-/**/
 
 #bck1 div, #bck2 div, #bck3 div{
 	background-image: url("https://mikeg3.github.io/Resume-V2.0/Pictures/bluefade5.jpg");
