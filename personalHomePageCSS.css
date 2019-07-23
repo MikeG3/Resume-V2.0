@@ -117,17 +117,14 @@ ul li ul li:hover a{
 table tr td:hover {
 	color: black;
 	background-color: white;
-}
-
-table tr td a:hover{
-	color: black;
-	background-color: white;
-	/*margin: 0px;*/
 	border: 10px solid blue;
      	border-radius: 5px;
-	/*border-width: 5px;*/
 	border-color: #003366;
-	
+}
+
+table tr td:hover a{
+	color: black;
+	background-color: white;
 }
 /**/
 
