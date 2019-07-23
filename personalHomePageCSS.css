@@ -14,8 +14,9 @@ body {
 	background-image: url("https://mikeg3.github.io/Resume-V2.0/Pictures/bluefade5.jpg");
 	color: white;
 	font-size: large;
-	/*
+	
 	font-family: Consolas,monaco,monospace; 
+	/*
 	font-size: 2vw;
 	*/
 }
@@ -97,8 +98,10 @@ ul li:hover ul li {
 	text-align: center;
 	font-size: 20px;
 	list-style-type: none;
+	/*
 	margin-left: -4px;
 	font-family: "Times New Roman";
+	*/
 }
 
 
@@ -122,6 +125,7 @@ table tr td a:hover{
 	margin: 0px;
 	border-width: 5px;
 	border-color: #003366;
+	
 }
 /**/
 
