@@ -137,9 +137,8 @@ table tr:hover {
 	background-color: white;
 	border: 10px solid blue;
      	border-radius: 5px;
-	border-color: #003366;
+	border-color: #b3d1ff;
 }
-
 table tr:hover a{
 	color: black;
 	background-color: white;
