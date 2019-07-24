@@ -157,6 +157,15 @@ table.twotable tr td:hover{
 	border-color: #006699;
 	*/
 }
+table.twotable tr:hover td:hover{
+	color: black;
+	background-color: #white;
+	/*
+	border: 10px solid blue;
+     	border-radius: 5px;
+	border-color: #006699;
+	*/
+}
 table.twotable tr:hover a{
 	color: black;
 	background-color: white;
