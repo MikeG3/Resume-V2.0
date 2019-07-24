@@ -139,7 +139,7 @@ table.2table tr:hover {
      	border-radius: 5px;
 	border-color: #006699;
 }
-table.2table tr:hover a{
+table.twotable tr:hover a{
 	color: black;
 	background-color: white;
 }
