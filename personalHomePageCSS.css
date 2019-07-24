@@ -135,7 +135,7 @@ table.hobbyTable tr td:hover a{
 table.twotable tr:hover {
 	color: black;
 	background-color: #b3d1ff;
-	border: 10px solid blue;
+	border: 10px solid black;
      	border-radius: 5px;
 	border-color: #006699;
 }
