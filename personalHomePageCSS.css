@@ -134,10 +134,10 @@ table tr td:hover a{
 /* Work Experience & Education table*/
 table tr:hover {
 	color: black;
-	background-color: white;
+	background-color: #b3d1ff;
 	border: 10px solid blue;
      	border-radius: 5px;
-	border-color: #b3d1ff;
+	border-color: #003366;
 }
 table tr:hover a{
 	color: black;
