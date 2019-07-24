@@ -142,12 +142,6 @@ table tr:hover {
 table tr:hover a{
 	color: black;
 	background-color: white;
-	
-	/**/
-	border: 10px solid blue;
-     	border-radius: 5px;
-	border-color: #006699;
-	/**/
 }
 
 #bck1 div, #bck2 div, #bck3 div{
