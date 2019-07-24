@@ -139,6 +139,7 @@ table.twotable tr:hover {
      	border-radius: 5px;
 	border-color: #006699;
 }
+/*
 table.twotable tr:hover td{
 	color: black;
 	background-color: #white;
@@ -146,6 +147,7 @@ table.twotable tr:hover td{
      	border-radius: 5px;
 	border-color: #006699;
 }
+*/
 table.twotable tr td:hover{
 	color: black;
 	background-color: #white;
