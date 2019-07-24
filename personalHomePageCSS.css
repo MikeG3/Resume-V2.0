@@ -118,7 +118,7 @@ ul li ul li:hover a{
 }
 
 /* entrepeneur table*/
-table.hobbytable tr td:hover {
+table.hobbyTable tr td:hover {
 	color: black;
 	background-color: white;
 	border: 10px solid blue;
@@ -126,7 +126,7 @@ table.hobbytable tr td:hover {
 	border-color: #003366;
 }
 
-table.hobbytable tr td:hover a{
+table.hobbyTable tr td:hover a{
 	color: black;
 	background-color: white;
 }
