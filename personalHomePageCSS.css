@@ -19,6 +19,8 @@ body {
 	/*
 	font-size: 2vw;
 	*/
+	/* The HTML body does not by default cover the full with nor height */
+	width = 100%;
 }
 
 a {
