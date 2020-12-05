@@ -1,0 +1,11 @@
+<svg height="300" width="600">
+  
+<text x="0" y="60" font-size="75" fill="black">MG</text>
+
+<text x="120" y="20" font-size="16" fill="black">Tech</text>
+
+<text x="120" y="40" font-size="16" fill="black">Services</text>
+
+<text x="120" y="60" font-size="16" fill="black">Techniques</text>
+
+</svg>
