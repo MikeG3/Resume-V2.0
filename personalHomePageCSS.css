@@ -146,7 +146,7 @@ table.twotable tr:hover a{
 
 /* Hobbies */
 #kayak:hover {
-	background-image: url(Pictures/kayak1.jpg);
+	background-image: url(Pictures/kayak1b.jpg);
 }
 #garden:hover {
 	background-image: url(Pictures/BonsaiGarden1.jpg);
@@ -156,7 +156,7 @@ table.twotable tr:hover a{
 	color: white;
 }
 #build:hover {
-	background-image: url(Pictures/Woodworking2.jpg);
+	background-image: url(Pictures/Woodworking2b.jpg);
 	color: white;
 }
 #kayak, #guitar, #garden, #skill, #fitness, #music, #build{
