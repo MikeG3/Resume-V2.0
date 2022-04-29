@@ -159,7 +159,7 @@ table.twotable tr:hover a{
 	background-image: url(Pictures/Woodworking2b.jpg);
 	color: white;
 }
-#kayak, #guitar, #garden, #skill, #fitness, #music, #build{
+#kayak, #garden, #music, #build{
 	border: none;
 	padding: 0;
 	margin: 0;
@@ -167,7 +167,7 @@ table.twotable tr:hover a{
 	width: 50%;
 	height: 200px;
 }
-#kayak:hover, #guitar:hover, #garden:hover, #skill:hover, #fitness:hover, #music:hover, #build:hover{
+#kayak:hover, #garden:hover, #music:hover, #build:hover{
 	border: none;
 	padding: 0;
 	margin: 0;
