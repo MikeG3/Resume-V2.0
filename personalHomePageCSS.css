@@ -156,7 +156,7 @@ table.twotable tr:hover a{
 	color: white;
 }
 #build:hover {
-	background-image: url(Pictures/Woodworking2b.jpg);
+	background-image: url(Pictures/kayak1b.jpg);
 	color: white;
 }
 #kayak, #garden, #music, #build{
@@ -168,6 +168,7 @@ table.twotable tr:hover a{
 	height: 200px;
 }
 #kayak:hover, #garden:hover, #music:hover, #build:hover{
+	background-color: #1c4af5;
 	border: none;
 	padding: 0;
 	margin: 0;
