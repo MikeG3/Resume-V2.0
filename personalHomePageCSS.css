@@ -177,4 +177,10 @@ table.twotable tr:hover a{
 	height: 200px;
 }
 
+.rates p {
+	width: 90%; /* Paragraphs will take up 80% of the width */
+    margin: 10px auto; /* Center align with top/bottom spacing */
+    padding: 10px; /* Add space inside the paragraph box */
+    border-radius: 8px; /* Optional: Rounded corners */
+}
 
