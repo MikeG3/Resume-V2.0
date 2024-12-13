@@ -10,6 +10,14 @@
 	<link rel="stylesheet" type="text/css" href="personalHomePageCSS.css">
 
 	<title> Michael Garner CV</title>
+	
+	<script>
+        async function loadMenu() {
+            const menu = await fetch('menuFR.html');
+            document.getElementById('menu-container').innerHTML = await menu.text();
+        }
+        window.onload = loadMenu;
+    </script>
 
 </head>
 
@@ -37,73 +45,7 @@
 
 	
 	<!--		MENU BAR		 -->
-	<div class="menubar" style="border: 0px;	padding: 0px;	margin: 0px; ">
-	<ul style="border: 0px;	padding: 0px;	margin: 0px; ">
-		<li>
-			<a href="indexFR.html">ACCEUIL</a>
-		</li>
-		<li>
-			<a href="#services">SERVICES</a>
-			<ul>
-				<li>
-					<a href="mgTechServicesFR.html" >SERVICES TECHNIQUES M.G.</a>
-				</li>
-				<li>
-					<a href="https://mikeg3.github.io/PlatinumAudio/index.html" >PLATINUM AUDIO</a>
-				</li>
-				<li>
-					<a href="mathmentormike.html" >MATH MENTOR MIKE</a>
-				</li>
-			</ul>
-		</li>		
-		<li>
-			<a href="#work" >A PROPOS</a>
-			<ul>
-				<li>
-				<a href="#education" >ÉDUCATION</a>
-				</li>
-				<li>
-				<a href="#work" >TRAVAILLE</a>
-				</li>
-				<li>
-				<a href="#entre" >ENTREPRENEUR</a>
-				</li>
-				<li>
-				<a href="Michael Garner CV 2024 FR Censored.pdf" download>TELECHARGER RESUME</a>
-				</li>
-			</ul>
-		</li>	
-		<li>
-			<a href="#about" >EN / FR / HE</a>
-			<ul>
-				<li>
-				<a href="index.html" >ENGLISH</a>
-				</li>
-				<li>
-				<a href="indexFR.html" >FRANCAIS</a>
-				</li>
-				<li>
-				<a href="indexHebrew.html" >עברית</a>
-				</li>
-			</ul>
-		</li>			
-		<li>
-			<a href="contactFR.html" >NOUS JOINDRE</a>
-			<ul>
-				<li>
-					<a href="contactFR.html" >TELEPHONE</a>
-				</li>
-				<li>
-					<a href="contactFR.html" >COURIEL</a>
-				</li>
-				<li>
-					<a href="Michael Garner CV 2024 FR Censored.pdf" download>TELECHARGER RESUME</a>
-				</li>
-			</ul>
-		</li>
-	</ul> 
-	
-	</div>
+	<div id="menu-container"></div>
 	<!--		END OF MENU BAR		 -->
 		
 	<br> <br>

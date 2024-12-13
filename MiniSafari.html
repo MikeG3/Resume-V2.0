@@ -11,18 +11,30 @@
 
 	<title> Michael Garner CV</title>
 
+	<script>
+        async function loadMenu() {
+            const menu = await fetch('menu.html');
+            document.getElementById('menu-container').innerHTML = await menu.text();
+        }
+        window.onload = loadMenu;
+    </script>
 </head>
 
 <body >
+
 	<hr><hr>
 	<h1>MICHAEL GARNER & MINI SAFARI CONTRACT</h1>
   
   <h3>Contracted to be responsible for hundreds of pieces of electro-mechanical equipment at multiple locations</h3>
 
   <h3>Responsible for all internal technical and engineering solutions</h3>
-
   
 	<br> <hr><hr> <br>
+
+	
+  	<!--		MENU BAR		 -->
+	  <div id="menu-container"></div>
+	  <!--		END OF MENU BAR		 -->
 	
 <img src="Pictures/minisafari2.JPG"  width="1100" height="600"
 		style="display: block;

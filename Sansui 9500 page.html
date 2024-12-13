@@ -2,9 +2,19 @@
 <!DOCTYPE html>
 <html>
 
+<head>
 <title> Platinum Audio Sansui AU-9500 stage 2 restoration page </title>
 
 <link rel="stylesheet" type="text/css" href="platinumaudioCSS.css">
+
+<script>
+	async function loadMenu() {
+		const menu = await fetch('menu.html');
+		document.getElementById('menu-container').innerHTML = await menu.text();
+	}
+	window.onload = loadMenu;
+</script>
+</head>
 
 <body style=" background-color: #1010f9; " >
 <h1> SANSUI AU-9500 STAGE 2 RESTORATION </h1>

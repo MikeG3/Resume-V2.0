@@ -13,6 +13,13 @@
 
 	<title> Michael Garner CV</title>
 
+	<script>
+        async function loadMenu() {
+            const menu = await fetch('menu.html');
+            document.getElementById('menu-container').innerHTML = await menu.text();
+        }
+        window.onload = loadMenu;
+    </script>
 </head>
 
 <body >
@@ -22,75 +29,11 @@
 	<h3>Montreal, Quebec, Canada</h3>
 	<br><hr>
 	
-		<!--		MENU BAR		 -->
-	<div class="menubar" style="border: 0px;	padding: 0px;	margin: 0px; ">
-	<ul style="border: 0px;	padding: 0px;	margin: 0px; ">
-		<li>
-			<a href="index.html">HOME</a>
-		</li>
-		<li>
-			<a href="#services">SERVICES</a>
-			<ul>
-				<li>
-					<a href="mgTechServices.html" >M.G. TECHNICAL SERVICES</a>
-				</li>
-				<li>
-					<a href="https://mikeg3.github.io/PlatinumAudio/index.html" >PLATINUM AUDIO</a>
-				</li>
-				<li>
-					<a href="mathmentormike.html" >MATH MENTOR MIKE</a>
-				</li>
-			</ul>
-		</li>		
-		<li>
-			<a href="#work" >ABOUT</a>
-			<ul>
-				<li>
-				<a href="#education" >EDUCATION</a>
-				</li>
-				<li>
-				<a href="#work" >WORK EXPERIENCE</a>
-				</li>
-				<li>
-				<a href="#entre" >ENTREPRENEUR</a>
-				</li>
-				<li>
-					<a href="Michael Garner CV 2024 Censored.pdf" download>Download Resume</a>
-				</li>
-			</ul>
-		</li>	
-		<li>
-			<a href="#about" >LANGUAGE</a>
-			<ul>
-				<li>
-				<a href="index.html" >ENGLISH</a>
-				</li>
-				<li>
-				<a href="indexFR.html" >FRANCAIS</a>
-				</li>
-				<li>
-				<a href="indexHebrew.html" >עברית</a>
-				</li>
-			</ul>
-		</li>			
-		<li>
-			<a href="contact.html" >CONTACT</a>
-			<ul>
-				<li>
-					<a href="contact.html" >PHONE</a>
-				</li>
-				<li>
-					<a href="contact.html" >EMAIL</a>
-				</li>
-				<li>
-					<a href="Michael Garner CV 2024 Censored.pdf" download>Download Resume</a>
-				</li>
-			</ul>
-		</li>
-	</ul> 
 	
-	</div>
-	<!--		END OF MENU BAR		 -->
+  	<!--		MENU BAR		 -->
+	  <div id="menu-container"></div>
+	  <!--		END OF MENU BAR		 -->
+			
 	<br><hr><br>
 	<h3>Official website for full program information</h3>
 	<a href="http://www.rosemount-technology.qc.ca/?page_id=2267">
