@@ -17,6 +17,7 @@
             document.getElementById('menu-container').innerHTML = await menu.text();
         }
         window.onload = loadMenu;
+		
     </script>
 	
 </head>
@@ -403,6 +404,25 @@
 	
 	</div>		<!--		END OF BCK3		 -->
 
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Michael Garner. All rights reserved.</p>
+    </footer>
+
+	<!--
+	<script>
+		function ratesAlert(event) {
+			event.preventDefault(); // Prevent the default download behavior
+			if (confirm("Please visit my rates page prior to making an appointment. Click OK to proceed to the rates page or Cancel to download the resume.")) {
+			window.location.href = 'rates.html'; // Redirect to rates page
+			} else {
+			window.location.href = event.target.href; // Proceed with the download
+			}
+			return false;
+		}
+	</script>
+	-->
+	
 </body>
 
 </html>
