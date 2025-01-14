@@ -102,47 +102,90 @@ ul li ul li:hover a{
 /* entrepeneur table*/
 table.hobbyTable tr td:hover {
 	color: black;
-	background-color: white;
-	border: 10px solid blue;
+	background-color:  white;
+	border: 8px solid blue;
     border-radius: 5px;
 	border-color: #003366;
 }
 
 /* Work Experience & Education table*/
-table.twotable tr:hover {
-	color: black;
-	background-color: #b3d1ff;
-	border: 10px solid black;
-    border-radius: 5px;
-	border-color: #006699;
-}
-
 table.twotable tr:hover td{
 	color: black;
-	background-color: white;
-	border: 10px solid blue;
+	background-color:  white;
+	border: 8px solid blue;
     border-radius: 5px;
 	border-color: #006699;
+	/*
+	background-color: white;
+	border: 10px solid blue;
+	*/
 }
 
-table.twotable tr td:hover{
+table.twotable td:hover{
 	color: black;
 	background-color: white;
-}
-table.twotable tr:hover td:hover{
-	color: black;
+	border: 8px solid blue;
+    border-radius: 5px;
+	border-color: #006699;
+	/*
 	background-color: white;
+	border: 10px solid blue;
+	*/
 }
-table.twotable tr:hover a{
-	color: black;
-	background-color: white;
-}
+
 
 /* Background gradient by section */
 #bck1 div, #bck2 div, #bck3 div{
 	background-image: url("https://mikeg3.github.io/Resume-V2.0/Pictures/bluefade5.jpg");
 	background-size: cover;
 }
+
+/*Entrepeneur*/
+#platinumaudio:hover, #mgtech:hover, #mathmentormike:hover, #minisafari:hover{
+	background-size: cover;
+	background-size: contain;
+	background-size: 100% 100%;
+	margin: 0;
+	padding: 0;
+	height: 200px;
+	color: white;
+}
+#platinumaudio:hover{
+	background-image: url(Pictures/previewimage.png);
+}
+#minisafari:hover {
+	background-image: url(Pictures/minisafari.png);
+}
+#mgtech:hover {
+	background-image: url(Pictures/MGtech.jpeg);
+}
+#mathmentormike:hover {
+	background-image: url(Pictures/getreal.jpg);
+}
+#platinumaudio:hover .entrepeneurtitlelink{
+	visibility: hidden;
+}
+.entrepeneurtextlink{
+	color: white;
+	text-decoration: none;
+}
+
+#minisafari:hover .entrepeneurtitlelink, #minisafari:hover .entrepeneurtextlink{
+	color: black;
+}
+#mgtech:hover .entrepeneurtitlelink{
+	color: rgb(168, 22, 168);
+}
+#mgtech:hover .entrepeneurtextlink{
+	visibility: hidden;
+}
+#mathmentormike:hover .entrepeneurtitlelink, #mathmentormike:hover .entrepeneurtextlink{
+	color: black;
+}
+#mathmentormike:hover .entrepeneurtextlink{
+	color: white;
+}
+
 
 /* Hobbies */
 #kayak:hover {
