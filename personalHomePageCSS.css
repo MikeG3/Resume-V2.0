@@ -66,10 +66,20 @@ ul li {
 }
 /* Responsive adjustments FOR MOBILE DEVICE */
 @media (max-width: 768px) {
+	ul {
+		width: 99.4%;
+		margin: 0px;
+		padding: 0px;
+		border: 0px;
+		list-style-type: none;
+		color: #ffffff;
+		font-family: Arial;
+		text-align: center;
+	}
 	ul li {
 		text-align: center;
 		float: left;
-		width: 19.8%;
+		width: 19.7%;
 		height: 50px;
 		background-color: #0b33cb;
 		opacity: .9;
