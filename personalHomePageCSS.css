@@ -51,7 +51,7 @@ ul {
 ul li {
 	text-align: center;
 	float: left;
-	width: 19.85%;
+	width: 19.7%;
 	height: 50px;
 	background-color: #0b33cb;
 	opacity: .9;
@@ -67,7 +67,7 @@ ul li {
 /* Responsive adjustments FOR MOBILE DEVICE */
 @media (max-width: 768px) {
 	ul {
-		width: 99.4%;
+		width: 100%;
 		margin: 0px;
 		padding: 0px;
 		border: 0px;
@@ -79,7 +79,7 @@ ul li {
 	ul li {
 		text-align: center;
 		float: left;
-		width: 19.7%;
+		width: 19.5%;
 		height: 50px;
 		background-color: #0b33cb;
 		opacity: .9;
