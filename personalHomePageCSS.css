@@ -93,9 +93,8 @@ table.hobbyTable tr td:hover {
 /* Work Experience & Education table*/
 table.twotable tr:hover td {
 	color: black;
-	border: 8px solid blue;
+	border: 5px solid #002999;
 	border-radius: 5px;
-	border-color: #006699;
 
 	background-image: url('Pictures/bluefade2.jpg');
 	background-repeat: no-repeat;
