@@ -11,29 +11,32 @@
 //	Michael Garner Professional Resume
 //	-----------------------------------------
 */
-html{
-	width: 100%;	
+html {
+	width: 100%;
 	padding: 0px;
 	margin: 0px;
 }
 
 body {
-	background-color:#1c4af5;
+	background-color: #1c4af5;
 	background-image: url("https://mikeg3.github.io/Resume-V2.0/Pictures/bluefade5.jpg");
 	color: white;
 	font-size: large;
-	font-family: Consolas,monaco,monospace; 
-	width: 100%;	
+	font-family: Consolas, monaco, monospace;
+	width: 100%;
 	padding: 0px;
 	margin: 0;
-	background-size: cover; 
+	background-size: cover;
 }
 
 a {
 	color: #003366;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
 	text-align: center;
 }
 
@@ -58,6 +61,7 @@ h1, h2, h3, h4 {
 		font-family: Arial;
 		text-align: center;
 	}
+
 	ul li {
 		text-align: center;
 		float: left;
@@ -80,30 +84,30 @@ h1, h2, h3, h4 {
 /* entrepeneur table*/
 table.hobbyTable tr td:hover {
 	color: black;
-	background-color:  white;
+	background-color: white;
 	border: 8px solid blue;
-    border-radius: 5px;
+	border-radius: 5px;
 	border-color: #003366;
 }
 
 /* Work Experience & Education table*/
-table.twotable tr:hover td{
+table.twotable tr:hover td {
 	color: black;
-	background-color:  white;
 	border: 8px solid blue;
-    border-radius: 5px;
+	border-radius: 5px;
 	border-color: #006699;
-	/*
-	background-color: white;
-	border: 10px solid blue;
-	*/
+
+	background-image: url('Pictures/bluefade2.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 }
 
-table.twotable td:hover{
+table.twotable td:hover {
 	color: black;
 	background-color: white;
 	border: 8px solid blue;
-    border-radius: 5px;
+	border-radius: 5px;
 	border-color: #006699;
 	/*
 	background-color: white;
@@ -113,13 +117,18 @@ table.twotable td:hover{
 
 
 /* Background gradient by section */
-#bck1 div, #bck2 div, #bck3 div{
+#bck1 div,
+#bck2 div,
+#bck3 div {
 	background-image: url("https://mikeg3.github.io/Resume-V2.0/Pictures/bluefade5.jpg");
 	background-size: cover;
 }
 
 /*Entrepeneur*/
-#platinumaudio:hover, #mgtech:hover, #mathmentormike:hover, #minisafari:hover{
+#platinumaudio:hover,
+#mgtech:hover,
+#mathmentormike:hover,
+#minisafari:hover {
 	background-size: cover;
 	background-size: contain;
 	background-size: 100% 100%;
@@ -128,39 +137,51 @@ table.twotable td:hover{
 	height: 200px;
 	color: white;
 }
-#platinumaudio:hover{
+
+#platinumaudio:hover {
 	background-image: url(Pictures/previewimage.png);
 }
+
 #minisafari:hover {
 	background-image: url(Pictures/minisafari.png);
 }
+
 #mgtech:hover {
 	background-image: url(Pictures/MGtech.jpeg);
 }
+
 #mathmentormike:hover {
 	background-image: url(Pictures/getreal.jpg);
 }
-#platinumaudio:hover .entrepeneurtitlelink{
+
+#platinumaudio:hover .entrepeneurtitlelink {
 	visibility: hidden;
 }
-.entrepeneurtextlink{
+
+.entrepeneurtextlink {
 	color: white;
 	text-decoration: none;
 }
 
-#minisafari:hover .entrepeneurtitlelink, #minisafari:hover .entrepeneurtextlink{
+#minisafari:hover .entrepeneurtitlelink,
+#minisafari:hover .entrepeneurtextlink {
 	color: black;
 }
-#mgtech:hover .entrepeneurtitlelink{
+
+#mgtech:hover .entrepeneurtitlelink {
 	color: rgb(168, 22, 168);
 }
-#mgtech:hover .entrepeneurtextlink{
+
+#mgtech:hover .entrepeneurtextlink {
 	visibility: hidden;
 }
-#mathmentormike:hover .entrepeneurtitlelink, #mathmentormike:hover .entrepeneurtextlink{
+
+#mathmentormike:hover .entrepeneurtitlelink,
+#mathmentormike:hover .entrepeneurtextlink {
 	color: black;
 }
-#mathmentormike:hover .entrepeneurtextlink{
+
+#mathmentormike:hover .entrepeneurtextlink {
 	color: white;
 }
 
@@ -169,18 +190,25 @@ table.twotable td:hover{
 #kayak:hover {
 	background-image: url(Pictures/kayak1b.jpg);
 }
+
 #garden:hover {
 	background-image: url(Pictures/BonsaiGarden1.jpg);
 }
+
 #music:hover {
 	background-image: url(Pictures/guitar3.jpg);
 	color: white;
 }
+
 #build:hover {
 	background-image: url(Pictures/woodworking2b.jpg);
 	color: white;
 }
-#kayak, #garden, #music, #build{
+
+#kayak,
+#garden,
+#music,
+#build {
 	border: none;
 	padding: 0;
 	margin: 0;
@@ -188,7 +216,11 @@ table.twotable td:hover{
 	width: 50%;
 	height: 200px;
 }
-#kayak:hover, #garden:hover, #music:hover, #build:hover{
+
+#kayak:hover,
+#garden:hover,
+#music:hover,
+#build:hover {
 	background-color: #1c4af5;
 	border: none;
 	padding: 0;
@@ -199,9 +231,12 @@ table.twotable td:hover{
 }
 
 .rates p {
-	width: 90%; /* Paragraphs will take up 80% of the width */
-    margin: 10px auto; /* Center align with top/bottom spacing */
-    padding: 10px; /* Add space inside the paragraph box */
-    border-radius: 8px; /* Optional: Rounded corners */
+	width: 90%;
+	/* Paragraphs will take up 80% of the width */
+	margin: 10px auto;
+	/* Center align with top/bottom spacing */
+	padding: 10px;
+	/* Add space inside the paragraph box */
+	border-radius: 8px;
+	/* Optional: Rounded corners */
 }
-
