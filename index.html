@@ -17,8 +17,13 @@
 
 		gtag('config', 'G-879WK78C61');
 	</script>
-	
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
 	<link rel="stylesheet" type="text/css" href="personalHomePageCSS.css">
+	<link rel="stylesheet" type="text/css" href="styles/code_animation.css">
 
 	<title> Michael Garner CV</title>
 
@@ -65,15 +70,43 @@
 		<!--		END OF MENU BAR		 -->
 
 		<!--		POST MENU BAR PICTURES		-->
+		<!--
 		<img src="Pictures/subtitleAA.jpg" width="100%" style="display: block;
 		margin-left: auto;
 		margin-right: auto;
 		border: 0px;
   		padding: 0px;
   		margin: 0px; ">
+		-->
+
+		<!-- ==========================================================
+     				VS CODE INTRODUCTION BANNER
+		=========================================================== -->
+		<section class="code-banner">
+			<div class="editor-window">
+				<!-- ==========================================
+             TITLE BAR
+        =========================================== -->
+				<div class="title-bar">
+					<div class="window-buttons">
+						<span class="close"></span>
+						<span class="minimize"></span>
+						<span class="maximize"></span>
+					</div>
+					<!-- This text will be changed by JavaScript -->
+					<div id="fileName" class="file-name">
+						Welcome.cs
+					</div>
+				</div>
+				<!-- ==========================================
+             CODE WINDOW
+        =========================================== -->
+				<pre id="typedCode" class="code"></pre>
+			</div>
+		</section>
+
 
 		<!--		POST MENU BAR PICTURES		-->
-		<br>
 		<!--		INTRO			 -->
 		<!--		END OF INTRO		 -->
 
@@ -473,6 +506,9 @@
 		}
 	</script>
 	-->
+
+	<!-- JavaScript -->
+    <script src="scripts/code_animation.js"></script>
 
 </body>
 
