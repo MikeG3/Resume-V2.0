@@ -19,13 +19,21 @@
 	</script>
 
 
+	<title> Michael Garner CV</title>
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 	<link rel="stylesheet" type="text/css" href="personalHomePageCSS.css">
 	<link rel="stylesheet" type="text/css" href="styles/code_animation.css">
+	<link rel="stylesheet" type="text/css" href="styles/banner.css">
 
-	<title> Michael Garner CV</title>
+	<!-- FONTS -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Emblema+One&display=swap" rel="stylesheet">
+
 
 	<script>
 		async function loadMenu() {
@@ -39,45 +47,53 @@
 </head>
 
 <body>
-	<!--
-	<script>
-	alert("Thank you for visiting Michael Garner's website, please be advised, that there is construction on this website underway.\n\n Please come back soon to see the updated version.");	
-	</script>
-	-->
 
-	<div id="bck1" style="
+
+	<div id="background-gradient" style="
 		background-image: url(https://mikeg3.github.io/Resume-V2.0/Pictures/bluefade5.jpg); 
 		background-size: cover; 
 		border: 0pX;
  	 	padding: 0px;
   		margin: 0px;	 ">
 
-		<!--		TITLE BAR			 -->
-		<div id="titlebar" style="border: 0px;	padding: 0px;	margin: 0px; ">
-			<img src="Pictures/headerMain.jpg" width="100%" style="display: block;
-		margin-left: auto;
-		margin-right: auto;
-		border: 0px;
-  		padding: 0px;
-  		margin: 0px;
-		width: 100%;       ">
-		</div>
-		<!--		END OF TITLE BAR		 -->
+		<!--		BANNER IMAGE			 -->
+		<section class="hero">
+			<div class="hero-overlay">
+				<h1>MICHAEL GARNER</h1>
+				<div class="hero-grid">
+					<div class="hero-column">
+						<h2>ELECTRONIC TECHNICIAN</h2>
+						<h3>
+						Collegial Studies
+						<br>
+						15+ Years Experience
+						</h3>
+					</div>
+					<div class="hero-column featured">
+						<h2>SOFTWARE ENGINEER</h2>
+						<h3>
+						Bachelor of Engineering
+						</h3>
+					</div>
+					<div class="hero-column">
+						<h2>AUTOMATED SYSTEMS<br>ELECTRO-MECHANIC</h2>
+						<h3>
+						Professional Diploma
+						<br>
+						AVS / DEP
+						</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--		BANNER IMAGE		 -->
 
 
 		<!--		MENU BAR		 -->
 		<div id="menu-container"></div>
 		<!--		END OF MENU BAR		 -->
 
-		<!--		POST MENU BAR PICTURES		-->
-		<!--
-		<img src="Pictures/subtitleAA.jpg" width="100%" style="display: block;
-		margin-left: auto;
-		margin-right: auto;
-		border: 0px;
-  		padding: 0px;
-  		margin: 0px; ">
-		-->
+
 
 		<!-- ==========================================================
      				VS CODE INTRODUCTION BANNER
@@ -508,7 +524,7 @@
 	-->
 
 	<!-- JavaScript -->
-    <script src="scripts/code_animation.js"></script>
+	<script src="scripts/code_animation.js"></script>
 
 </body>
 
