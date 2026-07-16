@@ -17,25 +17,20 @@
     display:flex;
     justify-content:center;
     align-items:center;
-    z-index: 2;
 }
-
 
 /*==================================================
     CONTENT
 ==================================================*/
-
 .hero-overlay{
     width:100%;
     max-width:1400px;
     padding:30px 60px;
 }
 
-
 /*==================================================
     NAME
 ==================================================*/
-
 .hero h1{
     margin:0 0 40px 0;
     text-align:center;
@@ -95,7 +90,6 @@
         2px 2px 5px rgba(0,0,0,.8);
 }
 
-
 /*==================================================
     FEATURED COLUMN
 ==================================================*/
@@ -107,4 +101,59 @@
 .featured h3{
     font-size:1.75rem;
     font-family: 'Emblema One';
+}
+
+/*==================================================
+    MOBILE
+==================================================*/
+
+@media (max-width:768px){
+
+    .hero{
+        min-height:420px;
+        background-position:center center;
+    }
+
+    .hero-overlay{
+        padding:25px 20px;
+    }
+
+    .hero h1{
+        font-size:2.7rem;
+        letter-spacing:2px;
+        margin-bottom:25px;
+    }
+
+    .hero-grid{
+        grid-template-columns:1fr;
+        gap:28px;
+    }
+
+    .hero-column{
+        text-align:center;
+    }
+
+    .hero-column h2{
+        font-size:1.2rem;
+        line-height:1.25;
+    }
+
+    .hero-column h3{
+        font-size:.95rem;
+        margin-top:6px;
+        line-height:1.35;
+    }
+
+    .featured{
+        order:-1;
+    }
+
+    .featured h2{
+        font-size:1.7rem;
+    }
+
+    .featured h3{
+        font-size:1.1rem;
+    }
+
 }
