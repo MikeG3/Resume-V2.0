@@ -1,5 +1,5 @@
-#background-gradient {
-		background-image: url(https://mikeg3.github.io/Resume-V2.0/Pictures/bluefade5.jpg); 
+.background-gradient {
+		background-image: url(../Pictures/bluefade5.jpg); 
 		background-size: cover; 
 		border: 0pX;
  	 	padding: 0px;
