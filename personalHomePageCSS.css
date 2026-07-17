@@ -81,45 +81,11 @@ h4 {
 }
 
 
-/* entrepeneur table*/
-table.hobbyTable tr td:hover {
-	color: black;
-	background-color: white;
-	border: 8px solid blue;
-	border-radius: 5px;
-	border-color: #003366;
-}
-
-/* Work Experience & Education table*/
-table.twotable tr:hover td {
-	color: black;
-	border: 5px solid #002999;
-	border-radius: 5px;
-
-	background-image: url('Pictures/bluefade2.jpg');
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-}
-
-table.twotable td:hover {
-	color: black;
-	background-color: white;
-	border: 8px solid blue;
-	border-radius: 5px;
-	border-color: #006699;
-	/*
-	background-color: white;
-	border: 10px solid blue;
-	*/
-}
-
-
 /* Background gradient by section */
 #bck1 div,
 #bck2 div,
 #bck3 div {
-	background-image: url("https://mikeg3.github.io/Resume-V2.0/Pictures/bluefade5.jpg");
+	background-image: url("Pictures/bluefade5.jpg");
 	background-size: cover;
 }
 
