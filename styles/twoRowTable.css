@@ -6,12 +6,20 @@
     vertical-align: top;
 }
 
-.twotable img {
-    width: 270;
-    height: 100;
+ .educationThumbnail, .workThumbnail {
+    height: auto;
+    width: 200px;
     display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.educationThumbnail {
+    margin-top: 10px;
+}
+
+.workThumbnail {
+    margin-bottom: 10px;
 }
 
 /* entrepeneur table*/
