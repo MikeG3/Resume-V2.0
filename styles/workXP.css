@@ -5,13 +5,15 @@
 }
 .companyTitle {
     font-size: 1.25;
+    color: aliceblue;
+    font-family: 'Emblema One';
 }
 
 .workPosition {
     font-family: 'rajdhani';
-    font-size: 1.25;
+    font-size: 1.5;
 }
 
 .workYear {
-    font-size: 1.25;
+    font-size: 1;
 }
