@@ -27,6 +27,8 @@
 	<link rel="stylesheet" type="text/css" href="personalHomePageCSS.css">
 	<link rel="stylesheet" type="text/css" href="styles/code_animation.css">
 	<link rel="stylesheet" type="text/css" href="styles/banner.css">
+	<link rel="stylesheet" type="text/css" href="styles/section_header.css">
+
 
 	<!-- FONTS -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,7 +44,6 @@
 			document.getElementById('menu-container').innerHTML = await menu.text();
 		}
 		window.onload = loadMenu;
-
 	</script>
 
 </head>
@@ -116,24 +117,19 @@
 					</div>
 				</div>
 				<!-- ==========================================
-             CODE WINDOW
-        =========================================== -->
+            					 CODE WINDOW
+        		=========================================== -->
 				<pre id="typedCode" class="code"></pre>
 			</div>
 		</section>
 
 
-		<!--		POST MENU BAR PICTURES		-->
-		<!--		INTRO			 -->
-		<!--		END OF INTRO		 -->
 
 		<!--		EDUCATION		 -->
+		<div id="education" class="section-banner">
+			<h2>Education</h2>
+		</div>
 
-		<a name="education">
-			<img src="Pictures/headereducation.jpg" width="100%" style="display: block;
-		margin-left: auto;
-		margin-right: auto;">
-		</a>
 		<table class="twotable" width="99%" style=" font-size:2vw;	text-align: center">
 			<tr>
 				<td>
@@ -220,11 +216,9 @@
 
 
 		<!-- MG Tech Services -->
-		<a name="entre">
-			<img src="Pictures/headerentre.jpg" width="100%" style="display: block;
-		margin-left: auto;
-		margin-right: auto;">
-		</a>
+		<div id="entre" class="section-banner">
+			<h2>Entrepreneurial Experience</h2>
+		</div>
 
 		<table class="hobbyTable" width="99%"
 			style=" color:white; 	font-size:2vw;	text-align: center; vertical-align: top;">
@@ -273,11 +267,10 @@
 		<!--		END OF ENTREPENEUR EXPERIENCE		 -->
 
 		<!--		WORK EXPERIENCE			 -->
-		<a name="work">
-			<img src="Pictures/headerwork.jpg" width="100%" style="display: block;
-		margin-left: auto;
-		margin-right: auto;">
-		</a>
+		<div id="work" class="section-banner">
+			<h2>Work Experience</h2>
+		</div>
+
 
 		<br>
 
@@ -472,7 +465,12 @@
 
 		<!--		END OF WORK EXPERIENCE		 -->
 
-	</div> <!--		END OF BCK2		 -->
+	</div>
+
+
+	
+
+	<!--		END OF BCK2		 -->
 	<div id="bck3" style="
 		background-image: url(https://mikeg3.github.io/Resume-V2.0/Pictures/bluefade5.jpg); 
 		background-size: cover; 
@@ -480,13 +478,12 @@
  	 	padding: 0px;
   		margin: 0px;
 		width: 100%;	 ">
-		<!--			ABOUT			 -->
-		<a name="about">
-			<img src="Pictures/headerhobbies.jpg" width="100%" style="display: block;
-		margin-left: auto;
-		margin-right: auto;">
-		</a>
 
+	<!--			ABOUT			 -->
+	<div id="about" class="section-banner">
+		<h2>Hobbies</h2>
+	</div>
+	
 		<table class="hobbyTable" style="width: 96%; height: 450px; color:white; font-size:3vw; text-align: center;">
 
 			<tr>
@@ -500,7 +497,7 @@
 
 		</table>
 
-		<br> <br>
+		<br> 
 		<!--		END OF ABOUT	 -->
 
 	</div> <!--		END OF BCK3		 -->
