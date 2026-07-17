@@ -1,0 +1,26 @@
+
+.educationThumbnail {
+    padding-top: 12px;
+}
+
+ .educationLink {
+    text-decoration: none;
+ }
+
+.educationTitle {
+    font-size: 1.25rem;
+    color:aliceblue;
+    font-family: 'rajdhani';
+}
+
+.educationTitle:hover {
+    color: black;
+}
+
+.educationSchool {
+    font-size: 1.25rem;
+}
+
+.educationYear {
+    font-family: 'rajdhani';
+}

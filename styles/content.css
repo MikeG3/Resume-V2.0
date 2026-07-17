@@ -22,7 +22,7 @@ body {
 	background-image: url("https://mikeg3.github.io/Resume-V2.0/Pictures/bluefade5.jpg");
 	color: white;
 	font-size: large;
-	font-family: Consolas, monaco, monospace;
+	font-family: 'michroma';
 	width: 100%;
 	padding: 0px;
 	margin: 0;
@@ -67,7 +67,6 @@ h4 {
 footer p{
 	padding-left: 8px;
 	margin-left: 8px;
-	outline: red 3px solid;
 }
 
 

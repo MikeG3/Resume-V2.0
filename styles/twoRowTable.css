@@ -1,21 +1,14 @@
 .twotable {
     width: 100%;
     color:white;
-    font-size:2vw;
     text-align: center;
     vertical-align: top;
 }
 
  .educationThumbnail, .workThumbnail {
-    height: auto;
-    width: 200px;
     display: block;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.educationThumbnail {
-    margin-top: 10px;
 }
 
 .workThumbnail {
@@ -49,8 +42,4 @@ table.twotable td:hover {
 	border: 8px solid blue;
 	border-radius: 5px;
 	border-color: #006699;
-	/*
-	background-color: white;
-	border: 10px solid blue;
-	*/
 }
