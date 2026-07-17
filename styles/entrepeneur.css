@@ -4,12 +4,9 @@
     text-align: center;
 }
 
-.entreTable tr {
-    height: 50%;
-}
 
 .entreTable td {
-    height: 50dvh;
+    height: 40dvh;
     width: 50%;
 }
 

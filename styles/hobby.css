@@ -1,9 +1,13 @@
 .hobbyTable {
      width: 100%; 
-     height: 450px; 
      color:white; 
      font-size:3vw; 
      text-align: center;
+}
+
+.hobbyTable td {
+	height: 40dvh;
+	border: red solid 6px;
 }
 
 /* Hobbies */
@@ -34,7 +38,6 @@
 	margin: 0;
 	background-size: cover;
 	width: 50%;
-	height: 200px;
 }
 
 #kayak:hover,
@@ -47,5 +50,4 @@
 	margin: 0;
 	background-size: cover;
 	width: 50%;
-	height: 200px;
 }
