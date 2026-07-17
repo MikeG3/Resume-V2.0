@@ -6,3 +6,12 @@
   		margin: 0px;	 
         z-index: 1;
 }
+
+.background3 {
+	background-image: url(../Pictures/bluefade5.jpg); 
+		background-size: cover; 
+		border: 0px;
+ 	 	padding: 0px;
+  		margin: 0px;
+		width: 100%; 
+}
