@@ -18,7 +18,6 @@
 /* entrepeneur table*/
 table.hobbyTable tr td:hover {
 	color: black;
-	background-color: white;
 	border: 8px solid blue;
 	border-radius: 5px;
 	border-color: #003366;
@@ -38,8 +37,6 @@ table.twotable tr:hover td {
 
 table.twotable td:hover {
 	color: black;
-	background-color: white;
-	border: 8px solid blue;
 	border-radius: 5px;
-	border-color: #006699;
+	border: 8px solid red;
 }

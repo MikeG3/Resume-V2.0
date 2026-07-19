@@ -10,8 +10,13 @@
     width: 50%;
 }
 
+.entreLink {
+ text-decoration: none;
+ font-family: 'Emblema one';
+ color: black;
+}
 
-/*Entrepeneur*/
+
 #platinumaudio:hover,
 #mgtech:hover,
 #mathmentormike:hover,
@@ -35,6 +40,7 @@
 
 #mgtech:hover {
 	background-image: url(../Pictures/MGTechLogo.svg);
+    filter: brightness(60%) contrast(90%);
 }
 
 #mathmentormike:hover {
@@ -56,11 +62,15 @@
 }
 
 #mgtech:hover .entrepeneurtitlelink {
-	color: rgb(168, 22, 168);
+	visibility: hidden;
 }
 
 #mgtech:hover .entrepeneurtextlink {
-	visibility: hidden;
+	color: white;
+}
+
+#mgtech:hover #mg-text{
+	transform: translateY(-86px);
 }
 
 #mathmentormike:hover .entrepeneurtitlelink,
@@ -70,4 +80,23 @@
 
 #mathmentormike:hover .entrepeneurtextlink {
 	color: white;
+}
+
+/* Target text only when its parent td is hovered */
+#platinumaudio:hover .platinumAudioSubText{
+    display: inline-block;          /* Required for transform to work on text links */
+    position: relative;   
+	transform: translateY(12px);
+}
+
+#mathmentormike:hover #math-mentor-mike-title {
+    display: inline-block;          /* Required for transform to work on text links */
+    position: relative;   
+	transform: translateY(-45px);
+}
+
+#mathmentormike:hover .mathTutoringText {
+    display: inline-block;          /* Required for transform to work on text links */
+    position: relative;   
+	transform: translateY(35px);
 }

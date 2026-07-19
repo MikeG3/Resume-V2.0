@@ -1,0 +1,62 @@
+.entreTable2 {
+    width: 100%;
+    color:white;
+    text-align: center;
+    vertical-align: top;
+}
+
+/* entrepeneur table*/
+table.hobbyTable tr td:hover {
+	color: black;
+	background-color: white;
+	border: 8px solid blue;
+	border-radius: 5px;
+	border-color: #003366;
+}
+
+/* Work Experience & Education table*/
+table.entreTable2 tr:hover td {
+	color: black;
+	border: 5px solid #002999;
+	border-radius: 5px;
+
+	background-image: url('../Pictures/bluefade2.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+table.entreTable2 td:hover {
+	color: black;
+	background-color: white;
+	border: 8px solid blue;
+	border-radius: 5px;
+	border-color: #006699;
+}
+
+.entreThumbnail {
+	height: 100px;
+	width: 200px;
+	border-radius: 30px;
+	margin: 25px 0;
+}
+
+.entreCompany {
+    font-size: 1.25;
+    color: aliceblue;
+    font-family: 'Emblema One';
+}
+
+.entreDescription {
+    color: aliceblue;
+    font-family: 'rajdhani';
+    font-size: 1.5;
+}
+
+.entreTable2 tr:hover .entreCompany {
+	color: black;
+}
+
+.entreTable2 tr:hover .entreDescription {
+	color: black;
+}
