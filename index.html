@@ -17,8 +17,9 @@
 
 		gtag('config', 'G-879WK78C61');
 	</script>
-	
+
 	<link rel="stylesheet" type="text/css" href="personalHomePageCSS.css">
+	<link rel="stylesheet" href="newsite.css">
 
 	<title> Michael Garner CV</title>
 
@@ -30,6 +31,19 @@
 		window.onload = loadMenu;
 
 	</script>
+
+	    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Emblema+One&family=Kode+Mono:wght@400..700&family=Michroma&display=swap"
+        rel="stylesheet">
+    <link rel="canonical" href="https://mikeg3.github.io/ResumeV3.0/index.html">
 
 </head>
 
@@ -459,6 +473,22 @@
 	<footer>
 		<p>&copy; 2024 Michael Garner. All rights reserved.</p>
 	</footer>
+
+	<!-- New Portfolio Announcement -->
+
+	<div id="newSiteContainer"></div>
+
+	<script>
+		fetch("newsite.html")
+			.then(response => response.text())
+			.then(html => {
+				document.getElementById("newSiteContainer").innerHTML = html;
+
+				const script = document.createElement("script");
+				script.src = "newsite.js";
+				document.body.appendChild(script);
+			});
+	</script>
 
 	<!--
 	<script>

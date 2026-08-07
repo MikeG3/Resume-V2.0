@@ -1,0 +1,144 @@
+/*==================================================
+    POPUP BACKDROP
+==================================================*/
+#newSitePopup{
+    position:fixed;
+    inset:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:rgba(5,15,35,.65);
+    backdrop-filter:blur(10px);
+    z-index:5000;
+    opacity:1;
+    transition:.45s;
+    pointer-events: auto;
+}
+
+/* Hidden */
+.popupHidden{
+    opacity:0;
+    pointer-events:none;
+    z-index:5000;
+}
+
+/*==================================================
+    CARD
+==================================================*/
+.newSiteCard{
+    position:relative;
+    width:min(520px,90vw);
+    padding:45px;
+    border-radius:24px;
+    background:rgba(12,22,42,.92);
+    border:1px solid rgba(160,220,255,.15);
+    box-shadow:
+        0 20px 60px rgba(0,0,0,.45);
+    color:white;
+    text-align:center;
+    z-index:2;
+}
+
+/*==================================================
+    BADGE
+==================================================*/
+.newBadge{
+    position:absolute;
+    top:-12px;
+    left:30px;
+    padding:6px 14px;
+    border-radius:999px;
+    background:#00AEEF;
+    color:white;
+    font-family:"Audiowide";
+    font-size:.75rem;
+    letter-spacing:2px;
+    z-index:5000;
+}
+
+/*==================================================
+    CLOSE
+==================================================*/
+#closeNewSitePopup{
+    position:absolute;
+    right:20px;
+    top:20px;
+    border:none;
+    background:none;
+    color:white;
+    font-size:2rem;
+    cursor:pointer;
+    z-index:100;
+
+    pointer-events:auto;
+}
+
+/*==================================================
+    TITLE
+==================================================*/
+.newSiteCard h2{
+    font-family:"Audiowide";
+    margin-bottom:25px;
+    z-index:5000;
+}
+
+/*==================================================
+    TEXT
+==================================================*/
+.newSiteCard p{
+    line-height:1.8;
+    color:#D6E6F2;
+    z-index:5000;
+}
+
+/*==================================================
+    BUTTONS
+==================================================*/
+.popupButtons{
+    display:flex;
+    justify-content:center;
+    gap:16px;
+    margin:35px 0;
+    flex-wrap:wrap;
+    z-index:5000;
+}
+
+.popupPrimary{
+    font-family: 'kode mono';
+    padding:14px 24px;
+    border-radius:999px;
+    background:#00AEEF;
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+    z-index:5000;
+}
+
+.popupSecondary{
+    font-family: 'kode mono';
+    text-decoration: none;
+    padding:14px 24px;
+    border-radius:999px;
+    background:transparent;
+    border:1px solid rgba(255,255,255,.3);
+    color:white;
+    cursor:pointer;
+    z-index:5000;
+}
+
+.popupRemember{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    margin-top:20px;
+    font-size:.9rem;
+    .popupRemember{
+
+    position:relative;
+
+    z-index:100;
+
+    pointer-events:auto;
+
+}
+}
