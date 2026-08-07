@@ -6,6 +6,8 @@ const closeButton = document.getElementById("closeNewSitePopup");
 const continueButton = document.getElementById("continueOldSite");
 const remember = document.getElementById("rememberPopup");
 
+console.log("newsite.js loaded");
+
 /*==================================================
     SHOW
 ==================================================*/
@@ -32,6 +34,11 @@ function closePopup(){
 
     }
     popup.classList.add("popupHidden");
+
+console.log(closeButton);
+console.log(continueButton);
+console.log(remember);
+
 }
 
 closeButton.addEventListener( "click", closePopup );

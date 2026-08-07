@@ -69,7 +69,7 @@
     font-size:2rem;
     cursor:pointer;
     z-index:100;
-
+    text-decoration: none;
     pointer-events:auto;
 }
 
